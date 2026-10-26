@@ -1,0 +1,11 @@
+2026-10-26 06:11:07,313 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-26 06:12:58,206 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-26 06:13:10,783 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-26 06:13:16,581 - INFO - Successfully moved vacation_photo.png to Images/
+2026-10-26 06:13:16,582 - INFO - Successfully moved project_meeting.mp4 to Videos/
+2026-10-26 06:13:16,583 - INFO - Successfully moved receipt_groceries.jpg to Images/
+2026-10-26 06:13:16,583 - INFO - Successfully moved budget_2024.xlsx to Documents/Financials/
+2026-10-26 06:13:16,584 - INFO - Successfully moved invoice_2024.pdf to Documents/Financials/
+2026-10-26 06:13:16,585 - INFO - Successfully moved notes.txt to Documents/Notes/
+2026-10-26 06:13:16,585 - INFO - Run summary: 6 items moved, 0 errors.
+2026-10-26 06:23:10,702 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
