@@ -7,6 +7,11 @@ Manually sorting cluttered directories like your `Downloads` or `Desktop` folder
 
 ---
 
+## 📹 Demo
+![File Butler Demo](demo.gif)
+
+---
+
 ## 🚀 How It Works
 1. **Scans Target Directory:** Inspects loose files and subfolders while safely ignoring hidden files.
 2. **AI Taxonomy Planning:** Sends a lightweight JSON map of your directory structure to an open-weight model (`openai/gpt-oss-20b`) via the **Groq API**.
