@@ -1,9 +1,9 @@
 # 📂 File Butler
 
-> An AI-powered directory organizer that channels your inner sloth by doing the tedious file sorting for you. Built for Global Hack Week.
+> An AI-powered directory organizer that channels your inner sloth by doing the tedious file sorting for you. Built for Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady Submission 🦥.
 
 ## 🦥 The Problem
-Manually sorting cluttered directories like your `Downloads` or `Desktop` folder file-by-file is exhausting and repetitive. Sloths know how to conserve energy—so why should you do the heavy lifting? **File Butler** analyzes your directory structure and intelligently categorizes your files in one click.
+Manually sorting cluttered directories like your `Downloads` or `Desktop` folder file-by-file is exhausting and repetitive. Sloths know how to conserve energy, so why should you do the heavy lifting? **File Butler** analyzes your directory structure and intelligently categorizes your files in one click.
 
 ---
 
