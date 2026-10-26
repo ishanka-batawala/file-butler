@@ -28,40 +28,73 @@ Manually sorting cluttered directories like your `Downloads` or `Desktop` folder
 
 ## 🛠️ Quick Start
 
-### 1. Clone & Setup Environment
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/ishanka-batawala/file-butler
 cd file-butler
 
+```
+
+### 2. Set Up Virtual Environment & Dependencies
+
+Choose the commands corresponding to your operating system:
+
+* **macOS / Linux:**
+```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
 ```
+* **Windows (PowerShell):**
+```powershell
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+pip install -r requirements.txt
 
-### 2. Configure Your API Key
+```
 
-Set your Groq API key as an environment variable:
 
+* **Windows (Command Prompt):**
+```cmd
+python -m venv venv
+venv\Scripts\activate.bat
+pip install -r requirements.txt
+
+```
+
+### 3. Configure Your API Key
+
+Set your Groq API key as an environment variable based on your terminal:
+
+* **macOS / Linux (Terminal):**
 ```bash
 export GROQ_API_KEY="your_groq_api_key_here"
 
 ```
 
-### 3. Run File Butler
 
-* **Preview changes (Dry-Run):**
-```bash
-python file_butler.py test_dir --dry-run
+* **Windows (PowerShell):**
+```powershell
+$env:GROQ_API_KEY="your_groq_api_key_here"
 
 ```
+
+
+* **Windows (Command Prompt):**
+```cmd
+set GROQ_API_KEY="your_groq_api_key_here"
+
+```
+
+### 4. Run File Butler
+
+* **Preview changes (Dry-Run mode):**
+   * *macOS / Linux:* `python3 file_butler.py test_dir --dry-run`
+   * *Windows:* `python file_butler.py test_dir --dry-run`
 
 
 * **Run live organization:**
-```bash
-python file_butler.py test_dir
-
-
-```
-
+   * *macOS / Linux:* `python3 file_butler.py test_dir`
+   * *Windows:* `python file_butler.py test_dir`
 ---
