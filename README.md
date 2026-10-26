@@ -1,4 +1,4 @@
-# 📂 File Butler
+# 📂 File Butler 🤵
 
 > An AI-powered directory organizer that channels your inner sloth by doing the tedious file sorting for you. Built for Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady Submission 🦥.
 
@@ -30,7 +30,7 @@ Manually sorting cluttered directories like your `Downloads` or `Desktop` folder
 
 ### 1. Clone & Setup Environment
 ```bash
-git clone [https://github.com/YOUR-USERNAME/file-butler.git](https://github.com/YOUR-USERNAME/file-butler.git)
+git clone https://github.com/ishanka-batawala/file-butler
 cd file-butler
 
 python3 -m venv venv
